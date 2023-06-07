@@ -1,0 +1,3 @@
+Traveling salesperson problems are NP-Complete. Some large problems may take very long to solve optimally. In situations where speed is necessary, there are several heuristics that can reliably find solution approximations that are close to optimal much more quickly. I want to compare the optimization based solutions to the heurisitcs available for varying network sizes and time requirements.
+
+ I will model this as a mixed integer program and try to solve it for multiple different network sizes. As for heuristics, i will use: nearest neighbor, christofides, as well as the improvement method 2-opt.
